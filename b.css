@@ -1,0 +1,25 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.box_1{
+    background-color: blueviolet;
+    color: rgb(121, 170, 154);
+    padding: 1rem;
+}
+.box_2{
+    background-color: rgb(128, 79, 14);
+    color: darksalmon;
+    padding: 1rem;
+
+}
+@media  screen and (min-width:700px){
+    .container{
+        display: flex;
+    }
+    .box_1{
+        background: darkmagenta;
+    }
+}
+    
